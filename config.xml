@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<widget xmlns = "http://www.w3.org/ns/widgets"
+
+		xmlns:gap 	= "http://phonegap.com/ns/1.0"
+		id 	  	= "com.landore.keanu"
+		versionCode	= "1"
+		version		= "1.0.0" >
+		
+		<name>Keanu App</name>
+		
+		<description>This is my first try of making an app.</description>
+		
+	<author href = "http://keanu.com.br" email = "app@keanu.com.br">
+		David Landore
+	</author>
+	
+	<content src   = "index.html" />
+	<access origin = "*" />
+	
+	<preference name = "orientation" value = "portrait" />
+	<preference name = "fullscreen"  value = "true" />
+	
+</widget>
